@@ -1,9 +1,9 @@
 class Nghttp2 < Formula
   desc "HTTP/2 C Library"
   homepage "https://nghttp2.org/"
-  url "https://github.com/nghttp2/nghttp2/releases/download/v1.65.0/nghttp2-1.65.0.tar.gz"
-  mirror "http://fresh-center.net/linux/www/nghttp2-1.65.0.tar.gz"
-  sha256 "8ca4f2a77ba7aac20aca3e3517a2c96cfcf7c6b064ab7d4a0809e7e4e9eb9914"
+  url "https://github.com/nghttp2/nghttp2/releases/download/v1.66.0/nghttp2-1.66.0.tar.gz"
+  mirror "http://fresh-center.net/linux/www/nghttp2-1.66.0.tar.gz"
+  sha256 "e178687730c207f3a659730096df192b52d3752786c068b8e5ee7aeb8edae05a"
   license "MIT"
 
   no_autobump! because: :requires_manual_review
