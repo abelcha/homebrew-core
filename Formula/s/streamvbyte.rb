@@ -1,10 +1,10 @@
 class Streamvbyte < Formula
   desc "Fast integer compression in C"
-  homepage "https://github.com/lemire/streamvbyte"
-  url "https://github.com/lemire/streamvbyte/archive/refs/tags/v2.0.0.tar.gz"
+  homepage "https://github.com/fast-pack/streamvbyte"
+  url "https://github.com/fast-pack/streamvbyte/archive/refs/tags/v2.0.0.tar.gz"
   sha256 "51ca1c3b02648ea4b965d65b0e586891981f2e8184b056520e38ad70bcc43dd8"
   license "Apache-2.0"
-  head "https://github.com/lemire/streamvbyte.git", branch: "master"
+  head "https://github.com/fast-pack/streamvbyte.git", branch: "master"
 
   bottle do
     sha256 cellar: :any_skip_relocation, arm64_sequoia: "955cfd051b2957a90b5dcd3206023547acbc96298938bd489f7413eb2bc1721a"
